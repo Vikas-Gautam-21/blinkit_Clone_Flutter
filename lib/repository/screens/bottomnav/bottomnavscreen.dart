@@ -24,22 +24,25 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: IndexedStack(
-        index: currentIndex,
-        children: pages,
-      ),
+      body: IndexedStack(index: currentIndex, children: pages),
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
-              icon: Image.asset("assets/images/home 1.png"), label: "Home"),
+            icon: Image.asset("assets/images/home 1.png"),
+            label: "Home",
+          ),
           BottomNavigationBarItem(
-              icon: UiHelper.customImage(img: "shopping-bag 1.png"),
-              label: "Cart"),
+            icon: UiHelper.customImage(img: "shopping-bag 1.png"),
+            label: "Cart",
+          ),
           BottomNavigationBarItem(
-              icon: UiHelper.customImage(img: "category 1.png"),
-              label: "Categories"),
+            icon: UiHelper.customImage(img: "category 1.png"),
+            label: "Categories",
+          ),
           BottomNavigationBarItem(
-              icon: UiHelper.customImage(img: "printer 1.png"), label: "Print")
+            icon: UiHelper.customImage(img: "printer 1.png"),
+            label: "Print",
+          ),
         ],
         type: BottomNavigationBarType.fixed,
         currentIndex: currentIndex,
