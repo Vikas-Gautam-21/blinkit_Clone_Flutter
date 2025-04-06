@@ -1,9 +1,6 @@
-// import 'package:blinkit_series/repository/screens/cart/cartscreen.dart';
-// import 'package:blinkit_series/repository/screens/category/categoryscreen.dart';
-// import 'package:blinkit_series/repository/screens/home/homescreen.dart';
-// import 'package:blinkit_series/repository/screens/print/printscreen.dart';
-// import 'package:blinkit_series/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/repository/screens/cart/cartscreen.dart';
+import 'package:flutter_application_2/repository/screens/home/homescreen.dart';
 import 'package:flutter_application_2/repository/widgtes/uihelper.dart';
 
 class BottomNavScreen extends StatefulWidget {
@@ -16,8 +13,8 @@ class BottomNavScreen extends StatefulWidget {
 class _BottomNavScreenState extends State<BottomNavScreen> {
   int currentIndex = 0;
   List<Widget> pages = [
-    //  HomeScreen(),
-    //  CartScreen(),
+    HomeScreen(data: [], categroy: [], grocerykitchen: []),
+     CartScreen(),
     //  CategoryScreen(),
     //  PrintScreen()
   ];
