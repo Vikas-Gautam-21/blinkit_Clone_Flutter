@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_application_2/repository/widgtes/uihelper.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -25,9 +24,9 @@ class HomeScreen extends StatelessWidget {
 
   HomeScreen({
     super.key,
-    required this.data,
-    required this.categroy,
-    required this.grocerykitchen,
+    required List data,
+    required List categroy,
+    required List grocerykitchen,
   });
   @override
   Widget build(BuildContext context) {
@@ -78,7 +77,7 @@ class HomeScreen extends StatelessWidget {
                           fontsize: 14,
                         ),
                         UiHelper.customText(
-                          text: "- Vikas Gautam, Mumbai, Maharashtra",
+                          text: "- Vikas Gautam, Sion, Mumbai",
                           color: Color(0XFFFFFFFF),
                           fontweight: FontWeight.bold,
                           fontsize: 14,

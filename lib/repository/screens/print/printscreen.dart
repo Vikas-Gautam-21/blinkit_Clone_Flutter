@@ -55,7 +55,7 @@ class PrintScreen extends StatelessWidget {
                           fontsize: 14,
                         ),
                         UiHelper.customText(
-                          text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
+                          text: "- Vikas Gautam, Sion, Mumbai",
                           color: Color(0XFF000000),
                           fontweight: FontWeight.bold,
                           fontsize: 14,
